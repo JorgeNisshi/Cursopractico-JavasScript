@@ -29,7 +29,45 @@
         Calcular el área
       </button>
     </form>
+  </section>
+  <section>
+    <h2>Calcular el área y el Perímetro de triángulo</h2>
+    <form>
+      <label for="imputTrianguloladoA">
+        lado A
+      </label>
+      <input id="inputTrianguloladoA" type="number">
 
+      <label for="imputTrianguloladoB">
+        lado B
+      </label>
+      <input id="inputTrianguloladoB" type="number">
+
+      <label for="inputTriangulobase">
+        Base
+      </label>
+      <input id="inputTriangulobase" type="number">
+      <button type="button" onclick="calcularPerimetroTriangulo()">
+        Calcular el Perímetro
+      </button>
+      <p id="perimetro"></p>
+
+    </form>
+    <form>
+      <label for="inputTrianguloaltura">
+        La altura es :
+      </label>
+      <input id="inputTrianguloaltura" type="number">
+      <label for="inputTriangulobase1">
+        La base es :
+      </label>
+      <input id="inputTriangulobase1" type="number">
+
+      <button type="button" onclick="calcularAreaTriangulo() ">
+        Calcular el Área
+      </button>
+      <p id="area"></p>
+    </form>
   </section>
   <script src=" ./figuras.js">
   </script>
